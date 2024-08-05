@@ -1,0 +1,22 @@
+/* Container for the list */
+.virtualized-list {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+/* Each item in the list */
+.virtualized-list-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #eee;
+  background-color: #fff;
+  transition: background-color 0.3s;
+}
+
+.virtualized-list-item:hover {
+  background-color: #f9f9f9;
+}
